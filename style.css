@@ -210,3 +210,75 @@ iframe {
     }
 }
 /*End product section*/
+
+/*Start contact section*/
+.contact {
+ background-image: url('img/background_pattern.png');
+    margin-top: 1em;
+    margin-bottom: 1em
+}
+.contact .container {
+    width: 97%;
+    margin: auto;
+}
+.contact div{
+    width: 100%;
+}
+.contact .nos_contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em
+}
+.contact .nos_contact div{ 
+    width: 80%;
+    padding-left: 0.5em;
+}
+.nos_contact  h4 {
+    font-weight: 600;
+    color: var(--social-color);
+    font-family: rob;
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+.nos_contact .contact-details div {
+    margin-bottom: .4em;
+    display: inline-flex;
+    gap: .5em;
+}
+.nos_contact .contact-details .adress span,
+.nos_contact .contact-details .phone span{
+    color: rgb(112 109 109);
+    display: block;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.nos_contact .contact-details .email,
+.nos_contact .contact-details .support
+{
+    color: #7c7676;
+    font-size: .8rem;
+}
+.nos_contact .contact-details div i {
+    color: #16060636;
+    display: block;
+   
+}
+.nos_contact .twitter-feeds span{
+    display: block;
+}
+.nos_contact .twitter-feeds span:nth-of-type(1) {
+    font-style: italic;
+    font-size: .7rem;
+    color: #7c7676;
+    font-family: sans-serif;
+}
+.nos_contact .twitter-feeds span:nth-of-type(2) {
+    margin: 0.2em 0;
+    color: black;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+/*end contact section*/
