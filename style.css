@@ -1,0 +1,29 @@
+:root {
+    --header-color: #171B39;
+    --seconHeader-color: #EA7927;
+    --text-color: #7F8B9E;
+    --sectext-color: #CDD0D5;
+    --lastsec-color: #A1A9C0;
+    --social-color: #888888;
+    --hom-color: #F76801;
+    --comp-color: #FBD049;
+    --port-color: #9EC64B;
+    --prod-color: #3F91C1;
+    --blog-color: #C078D0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url('img/background_pattern.png');
+    
+    
+}
+
+
+/**@media max_width 768px
+max_width 1024
+
+*/
