@@ -92,6 +92,20 @@ a {
 .header .nav ul li a:hover {
     color: #f3a93d;
 }
+.header .nav ul li > ul {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+.header .nav ul li > ul li {
+    margin: 0;
+}
+.header .nav ul li > ul li a {
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: .8rem;
+    font-weight: 600;
+}
 .nav-toggler {
     height: 34px;
     width: 44px;
