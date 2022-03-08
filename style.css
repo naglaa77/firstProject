@@ -43,9 +43,6 @@ body {
 ul {
     list-style: none;
 }
-a {
-    text-decoration: none;
-}
 .container {
     /*max-width: 1400px; */
     width: 95%;
