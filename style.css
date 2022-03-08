@@ -5,7 +5,10 @@
     --sectext-color: #CDD0D5;
     --lastsec-color: #51555c;;
     --social-color: #888888;
+<<<<<<< HEAD
     --contac-color: #2a2828;
+=======
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
     --hom-color: #F76801;
     --comp-color: #FBD049;
     --port-color: #9EC64B;
@@ -27,6 +30,7 @@ body {
 a {
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 * {
     box-sizing: border-box;
@@ -309,6 +313,13 @@ a {
     }
 }
 /*End slider images*/
+=======
+/* header {
+    background-image: url('img/background_pattern.png');
+    
+    
+} */
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
 
 
 /*Start product section*/
@@ -318,6 +329,13 @@ a {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+<<<<<<< HEAD
+=======
+.container {
+    width: 97%;
+    margin: auto;
+}
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
 .product-items {
     display: flex;
     flex-wrap: wrap;
@@ -391,7 +409,11 @@ iframe {
     padding-bottom: 1em;
     box-shadow: 0 0 10px 5px #c5bfbf;
     width: 100%;
+<<<<<<< HEAD
     margin: 2em auto 0;;
+=======
+    margin: 2.5em auto;
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
     
 }
 @media (min-width:528px) {
@@ -485,29 +507,54 @@ iframe {
 }
 /*End product section*/
 
+<<<<<<< HEAD
                                                            /********Start contact section****************/
+=======
+/*Start contact section*/
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
 .contact {
  background-image: url('img/background_pattern.png');
     margin-top: 1em;
     margin-bottom: 1em
 }
+<<<<<<< HEAD
+=======
+.contact .container {
+    width: 97%;
+    margin: auto;
+}
+.contact div{
+    width: 100%;
+}
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
 .contact .nos_contact{
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding-top: 2em;
+<<<<<<< HEAD
     padding-bottom: 2em;
     flex-wrap: wrap;
 }
 .contact .nos_contact div{ 
     width: 95%;
+=======
+    padding-bottom: 2em
+}
+.contact .nos_contact div{ 
+    width: 80%;
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
     padding-left: 0.5em;
 }
 .nos_contact  h4 {
     font-weight: 600;
     color: var(--social-color);
     font-family: rob;
+<<<<<<< HEAD
     font-size: 1rem;
+=======
+    font-size: 1.2rem;
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
     margin-bottom: 1em;
 }
 .nos_contact .contact-details div {
@@ -519,13 +566,21 @@ iframe {
 .nos_contact .contact-details .phone span{
     color: rgb(112 109 109);
     display: block;
+<<<<<<< HEAD
     font-size: .9rem;
+=======
+    font-size: 1rem;
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
     font-family: sans-serif;
 }
 .nos_contact .contact-details .email,
 .nos_contact .contact-details .support
 {
+<<<<<<< HEAD
     color: var(--contac-color);
+=======
+    color: #7c7676;
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
     font-size: .8rem;
 }
 .nos_contact .contact-details div i {
@@ -542,6 +597,7 @@ iframe {
     color: #7c7676;
     font-family: sans-serif;
 }
+<<<<<<< HEAD
 .nos_contact .twitter-feeds span:nth-of-type(2),
 .nos_contact .twitter-feeds strong {
     margin: 0.2em 0;
@@ -740,3 +796,13 @@ footer .all-social .copy-right p {
 (max-width: 570px)
 (max-width: 699px) 
 */
+=======
+.nos_contact .twitter-feeds span:nth-of-type(2) {
+    margin: 0.2em 0;
+    color: black;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+/*end contact section*/
+>>>>>>> b3a792c85a36afbac75acb8c79c2043b2d0d0b53
