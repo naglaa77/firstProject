@@ -59,18 +59,25 @@ a {
     padding: 12px 0;
     line-height: 1.5;
 }
-.header .log .my-log {
+.header .logo {
+    text-align: center;
+}
+header .row .logo img {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+/* .header .log .my-log {
     display: block;
     width: 59px;
     margin: auto;
-}
+} */
 .header .logo a {
-    font-size: 30px;
+    font-size: 22px;
     color: var(--header-color);
     text-transform: uppercase;
-}
-.header .nav {
-    background-color: green;
+    font-weight: 600;
+    font-family: 'Roboto';
 }
 .header .logo,
 .header .nav {
@@ -78,7 +85,37 @@ a {
 }
 .header .nav ul li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 5px;
+    position: relative;
+    width: 114px;
+}
+.header .nav ul > li::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+   width: 0;
+   transform: all 5s ease;
+}
+.header .nav ul > li:nth-of-type(1)::after {
+    background-color: var(--hom-color);
+}
+.header .nav ul > li:nth-of-type(2)::after {
+    background-color: var(--comp-color);
+}
+.header .nav ul > li:nth-of-type(3)::after {
+    background-color: var(--port-color);
+}
+.header .nav ul > li:nth-of-type(4)::after {
+    background-color: var(--prod-color);
+}
+.header .nav ul > li:nth-of-type(5)::after {
+    background-color: var(--blog-color);
+}
+.header .nav ul li:hover .header .nav ul > li::after {
+    width: 100%;
 }
 .header .nav ul li a { /*usually give padding for a not li*/
     display: block;
@@ -86,16 +123,31 @@ a {
     text-transform: uppercase;
     color: var(--header-color);
     padding: 10px 0;
+    font-weight: 600;
     transition: all .5s ease;
 }
+
 .header .nav ul li a.active,
 .header .nav ul li a:hover {
     color: #f3a93d;
 }
 .header .nav ul li > ul {
+    content: '';
+    top: calc(100% + 20px);
+    left: 0;
+    position: absolute;
     display: flex;
+    visibility: hidden;
+    opacity: 0;
     flex-direction: column;
-    background-color: yellow;
+    background-color: #dfd9e94d;
+    z-index: 4;
+    transition: all .5s ease;
+}
+.header .nav ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    top: calc(100% + 23px);
 }
 .header .nav ul li > ul li {
     margin: 0;
@@ -103,8 +155,9 @@ a {
 .header .nav ul li > ul li a {
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: .8rem;
-    font-weight: 600;
+    font-size: .66rem;
+    margin-bottom: 0.2em;
+    color: #020113;
 }
 .nav-toggler {
     height: 34px;
