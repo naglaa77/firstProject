@@ -13,14 +13,6 @@ function navToggle () {
         nav.removeAttribute("style");
     }
 }
-
-let ulMega = document.querySelector('.mega-menu');
-console.log(ulMega);
-
-let ulMega = document.querySelector('.mega-menu');
-ulMega.addEventListener('click',function () {
-    
-})
 /*start slider images */
 var slides = document.querySelector('.slider-items').children;
 var  nextSlide = document.querySelector('.right-slide');
