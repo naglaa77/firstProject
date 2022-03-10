@@ -857,11 +857,12 @@ footer .all-social .copy-right p {
     }
     
     footer .all-social .media {
-        justify-content: center;
+        justify-content: left;
         max-width: 28%;
     }
     footer .all-social .social-media {
         max-width: 25%;
+        justify-content: space-between;
     }
     footer .all-social .media a {
         font-size: .8rem;
@@ -870,7 +871,7 @@ footer .all-social .copy-right p {
     }
     footer .all-social .copy-right p{
         font-size: 0.7rem;
-        padding-left: 2.3em;
+        padding: 0;
     }
 }                                                                                  
                                                                   /****End footer****/
