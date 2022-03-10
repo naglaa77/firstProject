@@ -62,3 +62,7 @@ j'ai besoin de profender mes connaissance en dom javascript.je voudrais aussi re
 ## Author
 
 - Linkedin- (https://www.linkedin.com/feed/)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6980c986c4c26ec7f351f7c32a3988ac0ba509d9
