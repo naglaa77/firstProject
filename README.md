@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+# firstProject
 
-You can use the [editor on GitHub](https://github.com/naglaa77/firstProject/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Table of contents
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Aperçu](#Aperçu)
+  - [challenge](#challenge)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [Ce que j'ai appris](#what-i-learned)
+  - [Développement continu](#Développement continu)
+  - [Useful resources](#useful-resources)
+- [Author](#naglaa77)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-```markdown
-Syntax highlighted code block
+## Aperçu
+c'est le premier projet que j'ai conçu dans la formation web develoopeur et mobil AFPA marseille.d'abord j'ai conçu le maquette in figma aprés je commance le code avec html, css, javascript.
 
-# Header 1
-## Header 2
-### Header 3
+###challenge
 
-- Bulleted
-- List
+Les utilisateurs doivent pouvoir :
 
-1. Numbered
-2. List
+- Afficher la disposition optimale de l'application en fonction de la taille de l'écran de leur appareil
+- Voir les états de survol pour tous les éléments interactifs de la page
 
-**Bold** and _Italic_ and `Code` text
+### Links
 
-[Link](url) and ![Image](src)
+- Solution URL: (https://github.com/naglaa77/firstProject)
+- Live Site URL: (https://naglaa77.github.io/firstProject/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+-javascript
+### Ce que j'ai appris
+
+j'ai appris à faire un maquette sur figma,aussi comment je crée repository sur githup et une clé SSH sur mon ordinateur.j'ai appris à rendre un site responsive grc^e media query en fin j'arrive héberger mon site sur github.
+To see how you can add code snippets, see below:
+
+```css
+@media (min-width:992px) {
+    .header .nav ul li > ul li a {
+        font-size: .5rem;
+    }
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Développement continu
+j'ai besoin de profender mes connaissance en dom javascript.je voudrais aussi remplacer flex box css avec grid in prochain projet. 
 
-### Jekyll Themes
+### Useful resources
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/naglaa77/firstProject/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- (https://www.w3schools.com/) 
+- (https://www.freecodecamp.org/) 
 
-### Support or Contact
+## Author
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Linkedin- (https://www.linkedin.com/feed/)
+
